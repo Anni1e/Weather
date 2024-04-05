@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+  background: linear-gradient(151deg, #8e2de2 0%, hotpink 100%);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 95.9vh;
+  padding: 0 auto;
+}
+h1 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 28px;
+  font-weight: 300;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+  height: 42px;
+  width: 320px;
+  background: transparent;
+  border-bottom: 2px white solid;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 240px auto 36px;
+}
+input {
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.find {
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  color: hsl(286, 99%, 44%);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  background: #fff;
+  margin: 0 auto;
+  transition: 0.6s;
+}
+.find:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+.find:active {
+  background: white;
+}
+
+.again {
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  color: hsl(286, 99%, 44%);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  background: #fff;
+  margin: 0 auto;
+  transition: 0.6s;
+}
+.again:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+.again:active {
+  background: white;
+}
+
+.main {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto;
+  height: 187px;
+  width: 200px;
+}
+.country {
+  line-height: 36px;
+}
+.main .change {
+  margin-top: 36px;
+  line-height: 28px;
+}
+.main__error {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto;
+  height: 192px;
+  width: 297px;
+}
+.main__error a {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 0 72px;
+}
+
+.change {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Mulish";
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration-line: underline;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.temp {
+  text-align: center;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+}
+.country {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
